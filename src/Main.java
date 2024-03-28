@@ -117,22 +117,22 @@ public class Main {
         int Masha = 67760;
         int Denis = 83690;
         int Kristina = 76230;
-        int increase1  = (Masha / 100) * 10; // повысили на
-        int increase2 = (Denis / 100) * 10; // повысили на
-        int increase3 = (Kristina / 100) * 10; // повысили на
-        int result1 = increase1 + Masha; //новая зп
-        int result2 = increase2 + Denis; // новая зп
-        int result3 = increase3 + Kristina; //новая зп
+        int increase1  = (Masha / 100) * 10;
+        int increase2 = (Denis / 100) * 10;
+        int increase3 = (Kristina / 100) * 10;
+        int result1 = increase1 + Masha;
+        int result2 = increase2 + Denis;
+        int result3 = increase3 + Kristina;
         byte month = 12;
-        int annualIncomeNew1 = result1 * month; //годовая новая зп
-        int annualIncomeNew2 = result2 * month; //годовая новая зп
-        int annualIncomeNew3 = result3 * month; //годовая новая зп
-        int annualIncomeOld1 = Masha * month; //годовая старя зп
-        int annualIncomeOld2 = Denis * month; //годовая старя зп
-        int annualIncomeOld3 = Kristina * month; //годовая старя зп
-        int difference1 = (annualIncomeNew1 - annualIncomeOld1); //разница за год
-        int difference2 = (annualIncomeNew2 - annualIncomeOld2); //разница за год
-        int difference3 = (annualIncomeNew3 - annualIncomeOld3); //разница за год
+        int annualIncomeNew1 = result1 * month;
+        int annualIncomeNew2 = result2 * month;
+        int annualIncomeNew3 = result3 * month;
+        int annualIncomeOld1 = Masha * month;
+        int annualIncomeOld2 = Denis * month;
+        int annualIncomeOld3 = Kristina * month;
+        int difference1 = (annualIncomeNew1 - annualIncomeOld1);
+        int difference2 = (annualIncomeNew2 - annualIncomeOld2);
+        int difference3 = (annualIncomeNew3 - annualIncomeOld3);
         System.out.println("Маша теперь получает " + result1 + " рублей. Годовой доход вырос на " + difference1 + " рублей.");
         System.out.println("Денис теперь получает " + result2 + " рублей. Годовой доход вырос на " + difference2+ " рублей.");
         System.out.println("Кристина теперь получает " + result3 + " рублей. Годовой доход вырос на " + difference3 + " рублей.");
